@@ -7,15 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5373CF81FDF913900978BE7 /* BuyCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5373CF71FDF913900978BE7 /* BuyCarViewController.m */; };
+		A5373CFB1FDFB70100978BE7 /* ComfirBuyView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5373CFA1FDFB70100978BE7 /* ComfirBuyView.m */; };
 		A5A0348E1FD8E0F600E653D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A0348D1FD8E0F600E653D7 /* AppDelegate.m */; };
 		A5A034911FD8E0F600E653D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A034901FD8E0F600E653D7 /* ViewController.m */; };
 		A5A034941FD8E0F600E653D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A034921FD8E0F600E653D7 /* Main.storyboard */; };
 		A5A034961FD8E0F600E653D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A034951FD8E0F600E653D7 /* Assets.xcassets */; };
 		A5A034991FD8E0F600E653D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A034971FD8E0F600E653D7 /* LaunchScreen.storyboard */; };
 		A5A0349C1FD8E0F600E653D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A0349B1FD8E0F600E653D7 /* main.m */; };
+		A5A034AA1FD8E13600E653D7 /* LYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A034A51FD8E13600E653D7 /* LYTextField.m */; };
+		A5A034AB1FD8E13600E653D7 /* FourPingTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A034A81FD8E13600E653D7 /* FourPingTransition.m */; };
+		A5A034AC1FD8E13600E653D7 /* LYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A034A91FD8E13600E653D7 /* LYButton.m */; };
+		A5A034AF1FD8E15C00E653D7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A034AE1FD8E15C00E653D7 /* LoginViewController.m */; };
+		A5A034B31FD8E2D500E653D7 /* ZJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A034B11FD8E2D500E653D7 /* ZJViewController.m */; };
+		A5A034B61FD8E30400E653D7 /* ZJNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A034B51FD8E30400E653D7 /* ZJNavViewController.m */; };
+		A5A034B91FD8E4CC00E653D7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A034B81FD8E4CC00E653D7 /* SecondViewController.m */; };
+		A5A034C41FD8E79800E653D7 /* UserModal.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A034C21FD8E79800E653D7 /* UserModal.m */; };
+		A5A034D51FD8F03800E653D7 /* DCPagerConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A034C91FD8F03800E653D7 /* DCPagerConsts.m */; };
+		A5A034D61FD8F03800E653D7 /* UIView+DCPagerFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A034CE1FD8F03800E653D7 /* UIView+DCPagerFrame.m */; };
+		A5A034D71FD8F03800E653D7 /* DCPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A034D11FD8F03800E653D7 /* DCPagerController.m */; };
+		A5A034D81FD8F03800E653D7 /* DCPagerProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A034D41FD8F03800E653D7 /* DCPagerProgressView.m */; };
+		A5A034DB1FD8F09E00E653D7 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A034DA1FD8F09E00E653D7 /* MenuViewController.m */; };
+		A5A034E01FD933C100E653D7 /* listCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A034DE1FD933C100E653D7 /* listCell.m */; };
+		A5A034E11FD933C100E653D7 /* listCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A034DF1FD933C100E653D7 /* listCell.xib */; };
+		A5A034E31FD93B8300E653D7 /* duchengList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5A034E21FD93B8300E653D7 /* duchengList.plist */; };
+		A5A034E51FD93CA200E653D7 /* yinxingList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5A034E41FD93CA200E653D7 /* yinxingList.plist */; };
+		A5A034E71FD9436F00E653D7 /* food.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A5A034E61FD9436F00E653D7 /* food.jpeg */; };
+		A5A035EE1FDA464A00E653D7 /* NSObject+AssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A035B91FDA464A00E653D7 /* NSObject+AssociatedObject.m */; };
+		A5A035EF1FDA464A00E653D7 /* UIDevice+zhDeviceType.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A035BA1FDA464A00E653D7 /* UIDevice+zhDeviceType.m */; };
+		A5A035F01FDA464A00E653D7 /* NSString+zh_SafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A035BB1FDA464A00E653D7 /* NSString+zh_SafeAccess.m */; };
+		A5A035F11FDA464A00E653D7 /* UIViewController+zhStatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A035BC1FDA464A00E653D7 /* UIViewController+zhStatusBarStyle.m */; };
+		A5A035F21FDA464A00E653D7 /* UINavigationBar+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A035BF1FDA464A00E653D7 /* UINavigationBar+BackgroundColor.m */; };
+		A5A035F31FDA464A00E653D7 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A035C11FDA464A00E653D7 /* UIView+Layout.m */; };
+		A5A035F41FDA464A00E653D7 /* UIAlertController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A035C21FDA464A00E653D7 /* UIAlertController+Extend.m */; };
+		A5A035F51FDA464A00E653D7 /* NSArray+zh_SafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A035C51FDA464A00E653D7 /* NSArray+zh_SafeAccess.m */; };
+		A5A035F61FDA464A00E653D7 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A035C61FDA464A00E653D7 /* UIColor+Extend.m */; };
+		A5A035F71FDA464A00E653D7 /* UIView+Dealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A035C71FDA464A00E653D7 /* UIView+Dealloc.m */; };
+		A5A035F81FDA464A00E653D7 /* UIView+AddConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A035C81FDA464A00E653D7 /* UIView+AddConstraints.m */; };
+		A5A035FA1FDA464A00E653D7 /* UIScreen+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A035CE1FDA464A00E653D7 /* UIScreen+Extend.m */; };
+		A5A035FB1FDA464A00E653D7 /* NSDate+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A035CF1FDA464A00E653D7 /* NSDate+Extend.m */; };
+		A5A035FC1FDA464A00E653D7 /* CALayer+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A035D21FDA464A00E653D7 /* CALayer+Layout.m */; };
+		A5A035FD1FDA464A00E653D7 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A035D31FDA464A00E653D7 /* UIImage+Color.m */; };
+		A5A036051FDA464A00E653D7 /* zhAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A035E81FDA464A00E653D7 /* zhAlertView.m */; };
+		A5A036081FDA480700E653D7 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A0360A1FDA480700E653D7 /* libAFNetworking.a */; };
+		A5A036091FDA480700E653D7 /* libzhPopupController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A0360B1FDA480700E653D7 /* libzhPopupController.a */; };
+		A5A0360C1FDA5F7700E653D7 /* libCYTabBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A0360D1FDA5F7700E653D7 /* libCYTabBar.a */; };
+		A5A036111FDA650D00E653D7 /* buy.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A0360E1FDA650D00E653D7 /* buy.png */; };
+		A5A036121FDA650D00E653D7 /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A0360F1FDA650D00E653D7 /* food.png */; };
+		A5A036131FDA650D00E653D7 /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A036101FDA650D00E653D7 /* me.png */; };
+		A5E5AF1C1FE0DD8900193FC8 /* ComfirBuyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5E5AF1B1FE0DD8900193FC8 /* ComfirBuyView.xib */; };
+		EA5BA236B758A2C39DBE72AE /* libPods-EyougameEatApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A938D13789ECD9C360568A0C /* libPods-EyougameEatApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30911DA54359C52BFAB02425 /* Pods-EyougameEatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyougameEatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EyougameEatApp/Pods-EyougameEatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A5373CF61FDF913900978BE7 /* BuyCarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuyCarViewController.h; sourceTree = "<group>"; };
+		A5373CF71FDF913900978BE7 /* BuyCarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuyCarViewController.m; sourceTree = "<group>"; };
+		A5373CF91FDFB70100978BE7 /* ComfirBuyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ComfirBuyView.h; path = /Users/douglas/Desktop/EyougameEatApp/EyougameEatApp/Class/cell/ComfirBuyView.h; sourceTree = "<absolute>"; };
+		A5373CFA1FDFB70100978BE7 /* ComfirBuyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ComfirBuyView.m; path = /Users/douglas/Desktop/EyougameEatApp/EyougameEatApp/Class/cell/ComfirBuyView.m; sourceTree = "<absolute>"; };
 		A5A034891FD8E0F600E653D7 /* EyougameEatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyougameEatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A0348C1FD8E0F600E653D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A5A0348D1FD8E0F600E653D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +75,80 @@
 		A5A034981FD8E0F600E653D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5A0349A1FD8E0F600E653D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5A0349B1FD8E0F600E653D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A034A41FD8E13600E653D7 /* FourPingTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourPingTransition.h; sourceTree = "<group>"; };
+		A5A034A51FD8E13600E653D7 /* LYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTextField.m; sourceTree = "<group>"; };
+		A5A034A61FD8E13600E653D7 /* LYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYButton.h; sourceTree = "<group>"; };
+		A5A034A71FD8E13600E653D7 /* LYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTextField.h; sourceTree = "<group>"; };
+		A5A034A81FD8E13600E653D7 /* FourPingTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourPingTransition.m; sourceTree = "<group>"; };
+		A5A034A91FD8E13600E653D7 /* LYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYButton.m; sourceTree = "<group>"; };
+		A5A034AD1FD8E15C00E653D7 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A5A034AE1FD8E15C00E653D7 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A5A034B11FD8E2D500E653D7 /* ZJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJViewController.m; sourceTree = "<group>"; };
+		A5A034B21FD8E2D500E653D7 /* ZJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJViewController.h; sourceTree = "<group>"; };
+		A5A034B41FD8E30400E653D7 /* ZJNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJNavViewController.h; sourceTree = "<group>"; };
+		A5A034B51FD8E30400E653D7 /* ZJNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJNavViewController.m; sourceTree = "<group>"; };
+		A5A034B71FD8E4CC00E653D7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A5A034B81FD8E4CC00E653D7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A5A034C21FD8E79800E653D7 /* UserModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModal.m; sourceTree = "<group>"; };
+		A5A034C31FD8E79800E653D7 /* UserModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModal.h; sourceTree = "<group>"; };
+		A5A034C81FD8F03800E653D7 /* DCPagerConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPagerConsts.h; sourceTree = "<group>"; };
+		A5A034C91FD8F03800E653D7 /* DCPagerConsts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPagerConsts.m; sourceTree = "<group>"; };
+		A5A034CB1FD8F03800E653D7 /* DCPagerMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPagerMacros.h; sourceTree = "<group>"; };
+		A5A034CD1FD8F03800E653D7 /* UIView+DCPagerFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DCPagerFrame.h"; sourceTree = "<group>"; };
+		A5A034CE1FD8F03800E653D7 /* UIView+DCPagerFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DCPagerFrame.m"; sourceTree = "<group>"; };
+		A5A034D01FD8F03800E653D7 /* DCPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPagerController.h; sourceTree = "<group>"; };
+		A5A034D11FD8F03800E653D7 /* DCPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPagerController.m; sourceTree = "<group>"; };
+		A5A034D31FD8F03800E653D7 /* DCPagerProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPagerProgressView.h; sourceTree = "<group>"; };
+		A5A034D41FD8F03800E653D7 /* DCPagerProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPagerProgressView.m; sourceTree = "<group>"; };
+		A5A034D91FD8F09E00E653D7 /* MenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		A5A034DA1FD8F09E00E653D7 /* MenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		A5A034DD1FD933C100E653D7 /* listCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = listCell.h; sourceTree = "<group>"; };
+		A5A034DE1FD933C100E653D7 /* listCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = listCell.m; sourceTree = "<group>"; };
+		A5A034DF1FD933C100E653D7 /* listCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = listCell.xib; sourceTree = "<group>"; };
+		A5A034E21FD93B8300E653D7 /* duchengList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = duchengList.plist; sourceTree = "<group>"; };
+		A5A034E41FD93CA200E653D7 /* yinxingList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = yinxingList.plist; sourceTree = "<group>"; };
+		A5A034E61FD9436F00E653D7 /* food.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food.jpeg; sourceTree = "<group>"; };
+		A5A035B91FDA464A00E653D7 /* NSObject+AssociatedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedObject.m"; sourceTree = "<group>"; };
+		A5A035BA1FDA464A00E653D7 /* UIDevice+zhDeviceType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+zhDeviceType.m"; sourceTree = "<group>"; };
+		A5A035BB1FDA464A00E653D7 /* NSString+zh_SafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+zh_SafeAccess.m"; sourceTree = "<group>"; };
+		A5A035BC1FDA464A00E653D7 /* UIViewController+zhStatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+zhStatusBarStyle.m"; sourceTree = "<group>"; };
+		A5A035BE1FDA464A00E653D7 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		A5A035BF1FDA464A00E653D7 /* UINavigationBar+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BackgroundColor.m"; sourceTree = "<group>"; };
+		A5A035C01FDA464A00E653D7 /* CALayer+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Layout.h"; sourceTree = "<group>"; };
+		A5A035C11FDA464A00E653D7 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		A5A035C21FDA464A00E653D7 /* UIAlertController+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Extend.m"; sourceTree = "<group>"; };
+		A5A035C31FDA464A00E653D7 /* NSDate+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extend.h"; sourceTree = "<group>"; };
+		A5A035C41FDA464A00E653D7 /* UIScreen+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Extend.h"; sourceTree = "<group>"; };
+		A5A035C51FDA464A00E653D7 /* NSArray+zh_SafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+zh_SafeAccess.m"; sourceTree = "<group>"; };
+		A5A035C61FDA464A00E653D7 /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
+		A5A035C71FDA464A00E653D7 /* UIView+Dealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Dealloc.m"; sourceTree = "<group>"; };
+		A5A035C81FDA464A00E653D7 /* UIView+AddConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AddConstraints.m"; sourceTree = "<group>"; };
+		A5A035C91FDA464A00E653D7 /* UIViewController+zhStatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+zhStatusBarStyle.h"; sourceTree = "<group>"; };
+		A5A035CA1FDA464A00E653D7 /* NSString+zh_SafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+zh_SafeAccess.h"; sourceTree = "<group>"; };
+		A5A035CB1FDA464A00E653D7 /* UIDevice+zhDeviceType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+zhDeviceType.h"; sourceTree = "<group>"; };
+		A5A035CC1FDA464A00E653D7 /* NSObject+AssociatedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedObject.h"; sourceTree = "<group>"; };
+		A5A035CE1FDA464A00E653D7 /* UIScreen+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Extend.m"; sourceTree = "<group>"; };
+		A5A035CF1FDA464A00E653D7 /* NSDate+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extend.m"; sourceTree = "<group>"; };
+		A5A035D01FDA464A00E653D7 /* UIAlertController+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Extend.h"; sourceTree = "<group>"; };
+		A5A035D11FDA464A00E653D7 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		A5A035D21FDA464A00E653D7 /* CALayer+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Layout.m"; sourceTree = "<group>"; };
+		A5A035D31FDA464A00E653D7 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		A5A035D41FDA464A00E653D7 /* UINavigationBar+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BackgroundColor.h"; sourceTree = "<group>"; };
+		A5A035D51FDA464A00E653D7 /* UIView+AddConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AddConstraints.h"; sourceTree = "<group>"; };
+		A5A035D61FDA464A00E653D7 /* UIView+Dealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Dealloc.h"; sourceTree = "<group>"; };
+		A5A035D71FDA464A00E653D7 /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
+		A5A035D81FDA464A00E653D7 /* NSArray+zh_SafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+zh_SafeAccess.h"; sourceTree = "<group>"; };
+		A5A035DE1FDA464A00E653D7 /* zhAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhAlertView.h; sourceTree = "<group>"; };
+		A5A035E81FDA464A00E653D7 /* zhAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhAlertView.m; sourceTree = "<group>"; };
+		A5A0360A1FDA480700E653D7 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A0360B1FDA480700E653D7 /* libzhPopupController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libzhPopupController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A0360D1FDA5F7700E653D7 /* libCYTabBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCYTabBar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A0360E1FDA650D00E653D7 /* buy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buy.png; sourceTree = "<group>"; };
+		A5A0360F1FDA650D00E653D7 /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
+		A5A036101FDA650D00E653D7 /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
+		A5E5AF1B1FE0DD8900193FC8 /* ComfirBuyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComfirBuyView.xib; sourceTree = "<group>"; };
+		A938D13789ECD9C360568A0C /* libPods-EyougameEatApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EyougameEatApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA16065FA799DCF2C56A8EAB /* Pods-EyougameEatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyougameEatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-EyougameEatApp/Pods-EyougameEatApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +156,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A0360C1FDA5F7700E653D7 /* libCYTabBar.a in Frameworks */,
+				A5A036081FDA480700E653D7 /* libAFNetworking.a in Frameworks */,
+				A5A036091FDA480700E653D7 /* libzhPopupController.a in Frameworks */,
+				EA5BA236B758A2C39DBE72AE /* libPods-EyougameEatApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BF3A45B83A7C1EEDF20DAB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30911DA54359C52BFAB02425 /* Pods-EyougameEatApp.debug.xcconfig */,
+				DA16065FA799DCF2C56A8EAB /* Pods-EyougameEatApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2ADD9DC34B93DF56173AC977 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5A0360D1FDA5F7700E653D7 /* libCYTabBar.a */,
+				A5A0360A1FDA480700E653D7 /* libAFNetworking.a */,
+				A5A0360B1FDA480700E653D7 /* libzhPopupController.a */,
+				A938D13789ECD9C360568A0C /* libPods-EyougameEatApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A5A034801FD8E0F600E653D7 = {
 			isa = PBXGroup;
 			children = (
 				A5A0348B1FD8E0F600E653D7 /* EyougameEatApp */,
 				A5A0348A1FD8E0F600E653D7 /* Products */,
+				0BF3A45B83A7C1EEDF20DAB6 /* Pods */,
+				2ADD9DC34B93DF56173AC977 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +207,21 @@
 		A5A0348B1FD8E0F600E653D7 /* EyougameEatApp */ = {
 			isa = PBXGroup;
 			children = (
+				A5A034E61FD9436F00E653D7 /* food.jpeg */,
+				A5A0360E1FDA650D00E653D7 /* buy.png */,
+				A5A0360F1FDA650D00E653D7 /* food.png */,
+				A5A036101FDA650D00E653D7 /* me.png */,
+				A5A034A21FD8E13600E653D7 /* Class */,
 				A5A0348C1FD8E0F600E653D7 /* AppDelegate.h */,
 				A5A0348D1FD8E0F600E653D7 /* AppDelegate.m */,
 				A5A0348F1FD8E0F600E653D7 /* ViewController.h */,
 				A5A034901FD8E0F600E653D7 /* ViewController.m */,
+				A5A034D91FD8F09E00E653D7 /* MenuViewController.h */,
+				A5A034DA1FD8F09E00E653D7 /* MenuViewController.m */,
+				A5A034E21FD93B8300E653D7 /* duchengList.plist */,
+				A5A034E41FD93CA200E653D7 /* yinxingList.plist */,
+				A5A034B71FD8E4CC00E653D7 /* SecondViewController.h */,
+				A5A034B81FD8E4CC00E653D7 /* SecondViewController.m */,
 				A5A034921FD8E0F600E653D7 /* Main.storyboard */,
 				A5A034951FD8E0F600E653D7 /* Assets.xcassets */,
 				A5A034971FD8E0F600E653D7 /* LaunchScreen.storyboard */,
@@ -71,6 +231,180 @@
 			path = EyougameEatApp;
 			sourceTree = "<group>";
 		};
+		A5A034A21FD8E13600E653D7 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				A5A035D91FDA464A00E653D7 /* Subviews */,
+				A5A035B81FDA464A00E653D7 /* Utilities */,
+				A5A034DC1FD933A200E653D7 /* cell */,
+				A5A034C51FD8F03800E653D7 /* CDDPagerController */,
+				A5A034C11FD8E79800E653D7 /* Modal */,
+				A5A034B01FD8E2D500E653D7 /* tabBar */,
+				A5A034A31FD8E13600E653D7 /* Login */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		A5A034A31FD8E13600E653D7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A5A034A41FD8E13600E653D7 /* FourPingTransition.h */,
+				A5A034A81FD8E13600E653D7 /* FourPingTransition.m */,
+				A5A034A61FD8E13600E653D7 /* LYButton.h */,
+				A5A034A91FD8E13600E653D7 /* LYButton.m */,
+				A5A034A71FD8E13600E653D7 /* LYTextField.h */,
+				A5A034A51FD8E13600E653D7 /* LYTextField.m */,
+				A5A034AD1FD8E15C00E653D7 /* LoginViewController.h */,
+				A5A034AE1FD8E15C00E653D7 /* LoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A5A034B01FD8E2D500E653D7 /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A5A034B21FD8E2D500E653D7 /* ZJViewController.h */,
+				A5A034B11FD8E2D500E653D7 /* ZJViewController.m */,
+				A5A034B41FD8E30400E653D7 /* ZJNavViewController.h */,
+				A5A034B51FD8E30400E653D7 /* ZJNavViewController.m */,
+			);
+			path = tabBar;
+			sourceTree = "<group>";
+		};
+		A5A034C11FD8E79800E653D7 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				A5A034C31FD8E79800E653D7 /* UserModal.h */,
+				A5A034C21FD8E79800E653D7 /* UserModal.m */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		A5A034C51FD8F03800E653D7 /* CDDPagerController */ = {
+			isa = PBXGroup;
+			children = (
+				A5A034C61FD8F03800E653D7 /* Expand(扩展) */,
+				A5A034CF1FD8F03800E653D7 /* Controller */,
+				A5A034D21FD8F03800E653D7 /* View */,
+			);
+			path = CDDPagerController;
+			sourceTree = "<group>";
+		};
+		A5A034C61FD8F03800E653D7 /* Expand(扩展) */ = {
+			isa = PBXGroup;
+			children = (
+				A5A034C71FD8F03800E653D7 /* Const(常量) */,
+				A5A034CA1FD8F03800E653D7 /* Macros(宏) */,
+				A5A034CC1FD8F03800E653D7 /* Category(分类) */,
+			);
+			path = "Expand(扩展)";
+			sourceTree = "<group>";
+		};
+		A5A034C71FD8F03800E653D7 /* Const(常量) */ = {
+			isa = PBXGroup;
+			children = (
+				A5A034C81FD8F03800E653D7 /* DCPagerConsts.h */,
+				A5A034C91FD8F03800E653D7 /* DCPagerConsts.m */,
+			);
+			path = "Const(常量)";
+			sourceTree = "<group>";
+		};
+		A5A034CA1FD8F03800E653D7 /* Macros(宏) */ = {
+			isa = PBXGroup;
+			children = (
+				A5A034CB1FD8F03800E653D7 /* DCPagerMacros.h */,
+			);
+			path = "Macros(宏)";
+			sourceTree = "<group>";
+		};
+		A5A034CC1FD8F03800E653D7 /* Category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				A5A034CD1FD8F03800E653D7 /* UIView+DCPagerFrame.h */,
+				A5A034CE1FD8F03800E653D7 /* UIView+DCPagerFrame.m */,
+			);
+			path = "Category(分类)";
+			sourceTree = "<group>";
+		};
+		A5A034CF1FD8F03800E653D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5A034D01FD8F03800E653D7 /* DCPagerController.h */,
+				A5A034D11FD8F03800E653D7 /* DCPagerController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A5A034D21FD8F03800E653D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5A034D31FD8F03800E653D7 /* DCPagerProgressView.h */,
+				A5A034D41FD8F03800E653D7 /* DCPagerProgressView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5A034DC1FD933A200E653D7 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				A5373CF61FDF913900978BE7 /* BuyCarViewController.h */,
+				A5373CF71FDF913900978BE7 /* BuyCarViewController.m */,
+				A5373CF91FDFB70100978BE7 /* ComfirBuyView.h */,
+				A5373CFA1FDFB70100978BE7 /* ComfirBuyView.m */,
+				A5E5AF1B1FE0DD8900193FC8 /* ComfirBuyView.xib */,
+				A5A034DD1FD933C100E653D7 /* listCell.h */,
+				A5A034DE1FD933C100E653D7 /* listCell.m */,
+				A5A034DF1FD933C100E653D7 /* listCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		A5A035B81FDA464A00E653D7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A5A035B91FDA464A00E653D7 /* NSObject+AssociatedObject.m */,
+				A5A035BA1FDA464A00E653D7 /* UIDevice+zhDeviceType.m */,
+				A5A035BB1FDA464A00E653D7 /* NSString+zh_SafeAccess.m */,
+				A5A035BC1FDA464A00E653D7 /* UIViewController+zhStatusBarStyle.m */,
+				A5A035BE1FDA464A00E653D7 /* UIImage+Color.h */,
+				A5A035BF1FDA464A00E653D7 /* UINavigationBar+BackgroundColor.m */,
+				A5A035C01FDA464A00E653D7 /* CALayer+Layout.h */,
+				A5A035C11FDA464A00E653D7 /* UIView+Layout.m */,
+				A5A035C21FDA464A00E653D7 /* UIAlertController+Extend.m */,
+				A5A035C31FDA464A00E653D7 /* NSDate+Extend.h */,
+				A5A035C41FDA464A00E653D7 /* UIScreen+Extend.h */,
+				A5A035C51FDA464A00E653D7 /* NSArray+zh_SafeAccess.m */,
+				A5A035C61FDA464A00E653D7 /* UIColor+Extend.m */,
+				A5A035C71FDA464A00E653D7 /* UIView+Dealloc.m */,
+				A5A035C81FDA464A00E653D7 /* UIView+AddConstraints.m */,
+				A5A035C91FDA464A00E653D7 /* UIViewController+zhStatusBarStyle.h */,
+				A5A035CA1FDA464A00E653D7 /* NSString+zh_SafeAccess.h */,
+				A5A035CB1FDA464A00E653D7 /* UIDevice+zhDeviceType.h */,
+				A5A035CC1FDA464A00E653D7 /* NSObject+AssociatedObject.h */,
+				A5A035CE1FDA464A00E653D7 /* UIScreen+Extend.m */,
+				A5A035CF1FDA464A00E653D7 /* NSDate+Extend.m */,
+				A5A035D01FDA464A00E653D7 /* UIAlertController+Extend.h */,
+				A5A035D11FDA464A00E653D7 /* UIView+Layout.h */,
+				A5A035D21FDA464A00E653D7 /* CALayer+Layout.m */,
+				A5A035D31FDA464A00E653D7 /* UIImage+Color.m */,
+				A5A035D41FDA464A00E653D7 /* UINavigationBar+BackgroundColor.h */,
+				A5A035D51FDA464A00E653D7 /* UIView+AddConstraints.h */,
+				A5A035D61FDA464A00E653D7 /* UIView+Dealloc.h */,
+				A5A035D71FDA464A00E653D7 /* UIColor+Extend.h */,
+				A5A035D81FDA464A00E653D7 /* NSArray+zh_SafeAccess.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A5A035D91FDA464A00E653D7 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				A5A035DE1FDA464A00E653D7 /* zhAlertView.h */,
+				A5A035E81FDA464A00E653D7 /* zhAlertView.m */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +412,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5A0349F1FD8E0F600E653D7 /* Build configuration list for PBXNativeTarget "EyougameEatApp" */;
 			buildPhases = (
+				7246E2AC94AA2A7AA680D0ED /* [CP] Check Pods Manifest.lock */,
 				A5A034851FD8E0F600E653D7 /* Sources */,
 				A5A034861FD8E0F600E653D7 /* Frameworks */,
 				A5A034871FD8E0F600E653D7 /* Resources */,
+				A27968F0C0C173D6FEB897A0 /* [CP] Embed Pods Frameworks */,
+				7E3EFED5933C3F71DEDA795A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -102,7 +439,7 @@
 				TargetAttributes = {
 					A5A034881FD8E0F600E653D7 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -130,21 +467,115 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5A034991FD8E0F600E653D7 /* LaunchScreen.storyboard in Resources */,
+				A5A034E51FD93CA200E653D7 /* yinxingList.plist in Resources */,
+				A5A036121FDA650D00E653D7 /* food.png in Resources */,
+				A5A036111FDA650D00E653D7 /* buy.png in Resources */,
+				A5A034E31FD93B8300E653D7 /* duchengList.plist in Resources */,
+				A5A036131FDA650D00E653D7 /* me.png in Resources */,
+				A5A034E71FD9436F00E653D7 /* food.jpeg in Resources */,
+				A5A034E11FD933C100E653D7 /* listCell.xib in Resources */,
 				A5A034961FD8E0F600E653D7 /* Assets.xcassets in Resources */,
+				A5E5AF1C1FE0DD8900193FC8 /* ComfirBuyView.xib in Resources */,
 				A5A034941FD8E0F600E653D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7246E2AC94AA2A7AA680D0ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyougameEatApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E3EFED5933C3F71DEDA795A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EyougameEatApp/Pods-EyougameEatApp-resources.sh",
+				"${PODS_ROOT}/CYTabBar/CYTabBar/CYTabBar.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EyougameEatApp/Pods-EyougameEatApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A27968F0C0C173D6FEB897A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EyougameEatApp/Pods-EyougameEatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A5A034851FD8E0F600E653D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A034B91FD8E4CC00E653D7 /* SecondViewController.m in Sources */,
+				A5A035FA1FDA464A00E653D7 /* UIScreen+Extend.m in Sources */,
+				A5A034B31FD8E2D500E653D7 /* ZJViewController.m in Sources */,
+				A5A034D71FD8F03800E653D7 /* DCPagerController.m in Sources */,
+				A5A035F71FDA464A00E653D7 /* UIView+Dealloc.m in Sources */,
+				A5A036051FDA464A00E653D7 /* zhAlertView.m in Sources */,
+				A5A034DB1FD8F09E00E653D7 /* MenuViewController.m in Sources */,
+				A5A034D51FD8F03800E653D7 /* DCPagerConsts.m in Sources */,
+				A5A034D81FD8F03800E653D7 /* DCPagerProgressView.m in Sources */,
+				A5A035EF1FDA464A00E653D7 /* UIDevice+zhDeviceType.m in Sources */,
+				A5373CF81FDF913900978BE7 /* BuyCarViewController.m in Sources */,
+				A5A035F21FDA464A00E653D7 /* UINavigationBar+BackgroundColor.m in Sources */,
+				A5A035F31FDA464A00E653D7 /* UIView+Layout.m in Sources */,
 				A5A034911FD8E0F600E653D7 /* ViewController.m in Sources */,
+				A5A035F81FDA464A00E653D7 /* UIView+AddConstraints.m in Sources */,
+				A5A035F41FDA464A00E653D7 /* UIAlertController+Extend.m in Sources */,
+				A5A035F01FDA464A00E653D7 /* NSString+zh_SafeAccess.m in Sources */,
+				A5A034D61FD8F03800E653D7 /* UIView+DCPagerFrame.m in Sources */,
 				A5A0349C1FD8E0F600E653D7 /* main.m in Sources */,
+				A5A035F11FDA464A00E653D7 /* UIViewController+zhStatusBarStyle.m in Sources */,
+				A5A034E01FD933C100E653D7 /* listCell.m in Sources */,
+				A5A034AA1FD8E13600E653D7 /* LYTextField.m in Sources */,
+				A5A035FC1FDA464A00E653D7 /* CALayer+Layout.m in Sources */,
+				A5A034C41FD8E79800E653D7 /* UserModal.m in Sources */,
+				A5A035EE1FDA464A00E653D7 /* NSObject+AssociatedObject.m in Sources */,
+				A5A034AB1FD8E13600E653D7 /* FourPingTransition.m in Sources */,
+				A5A034AF1FD8E15C00E653D7 /* LoginViewController.m in Sources */,
+				A5A034AC1FD8E13600E653D7 /* LYButton.m in Sources */,
+				A5373CFB1FDFB70100978BE7 /* ComfirBuyView.m in Sources */,
 				A5A0348E1FD8E0F600E653D7 /* AppDelegate.m in Sources */,
+				A5A034B61FD8E30400E653D7 /* ZJNavViewController.m in Sources */,
+				A5A035FB1FDA464A00E653D7 /* NSDate+Extend.m in Sources */,
+				A5A035FD1FDA464A00E653D7 /* UIImage+Color.m in Sources */,
+				A5A035F51FDA464A00E653D7 /* NSArray+zh_SafeAccess.m in Sources */,
+				A5A035F61FDA464A00E653D7 /* UIColor+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +649,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +698,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -276,26 +707,38 @@
 		};
 		A5A034A01FD8E0F600E653D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30911DA54359C52BFAB02425 /* Pods-EyougameEatApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 85AY5DCE8P;
 				INFOPLIST_FILE = EyougameEatApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = Douglas.EyougameEatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ecde991d-6d55-43bb-b750-4d6a6d72eecd";
+				PROVISIONING_PROFILE_SPECIFIER = eyoutwall1204;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		A5A034A11FD8E0F600E653D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA16065FA799DCF2C56A8EAB /* Pods-EyougameEatApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 85AY5DCE8P;
 				INFOPLIST_FILE = EyougameEatApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = Douglas.EyougameEatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ecde991d-6d55-43bb-b750-4d6a6d72eecd";
+				PROVISIONING_PROFILE_SPECIFIER = eyoutwall1204;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

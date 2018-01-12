@@ -7,7 +7,12 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ZJViewController.h"
+#import "ZJNavViewController.h"
+#import "ViewController.h"
+#import "MenuViewController.h"
+#import "SecondViewController.h"
+#import <CYTabBar/CYTabBarController.h>
 @interface AppDelegate ()
 
 @end
@@ -16,7 +21,34 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    //a.初始化一个tabBar控制器
+//    ZJViewController *tb=[[ZJViewController alloc]init];
+    //设置控制器为Window的根控制器
+    
+    
+    //b.创建子控制器
+    MenuViewController *c1=[[MenuViewController alloc]init];
+    ZJNavViewController * nav1 = [[ZJNavViewController alloc]initWithRootViewController:c1];
+    c1.view.backgroundColor=[UIColor whiteColor];
+    
+    SecondViewController * c2 = [SecondViewController new];
+    ZJNavViewController * nav2 = [[ZJNavViewController alloc]initWithRootViewController:c2];
+    c2.view.backgroundColor=[UIColor whiteColor];
+    
+    
+    
+    CYTabBarController * tabbar = [[CYTabBarController alloc]init];
+    [tabbar addChildController:nav1 title:@"点餐" imageName:@"food" selectedImageName:nil];
+    [tabbar addChildController:nav2 title:@"我的" imageName:@"me" selectedImageName:nil];
+    [CYTabBarConfig shared].backgroundColor = [UIColor colorWithRed:245/255.f green:174/255.f blue:42/255.f alpha:1];
+    [CYTabBarConfig shared].textColor = [UIColor whiteColor];
+    [CYTabBarConfig shared].selectedTextColor = [UIColor blackColor];
+    self.window.rootViewController=tabbar;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

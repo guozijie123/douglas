@@ -16,7 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+//    [self.navigationBar setLargeTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor redColor],NSForegroundColorAttributeName,nil]];
+//    self.navigationBar.prefersLargeTitles = YES;
+//    self.navigationItem.largeTitleDisplayMode = UINavigationItemLargeTitleDisplayModeAlways;
+    [self.navigationBar setTintColor:[UIColor clearColor]];
+    self.navigationBar.translucent = NO;
+    self.extendedLayoutIncludesOpaqueBars = YES;
+    [self.navigationBar setBarTintColor:[UIColor colorWithRed:245/255.f green:174/255.f blue:42/255.f alpha:1]];
+    [self.navigationBar setAlpha:1.f];
+    [self.navigationBar setTintColor:[UIColor colorWithRed:245/255.f green:174/255.f blue:42/255.f alpha:1]];
 }
 
 - (void)didReceiveMemoryWarning {

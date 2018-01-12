@@ -1,14 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   yinxingList.plist
-   EyougameEatApp
-
-   Created by Douglas on 2017/12/7.
-   Copyright (c) 2017年 Douglas. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<array>
+	<dict>
+		<key>name</key>
+		<string>牛肉丸米粉</string>
+		<key>price</key>
+		<string>16</string>
+		<key>id</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>牛腩米粉</string>
+		<key>price</key>
+		<string>12</string>
+		<key>id</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>和味猪手饭</string>
+		<key>price</key>
+		<string>15</string>
+		<key>id</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>豉汁排骨饭</string>
+		<key>price</key>
+		<string>15</string>
+		<key>id</key>
+		<string>4</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>特色扣肉饭</string>
+		<key>price</key>
+		<string>13</string>
+		<key>id</key>
+		<string>5</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>秘制牛腩饭</string>
+		<key>price</key>
+		<string>15</string>
+		<key>id</key>
+		<string>6</string>
+	</dict>
+</array>
 </plist>

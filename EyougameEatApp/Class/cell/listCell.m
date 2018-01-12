@@ -7,7 +7,12 @@
 //
 
 #import "listCell.h"
+@interface listCell()
+@property (weak, nonatomic) IBOutlet UILabel *name;
 
+@property (weak, nonatomic) IBOutlet UILabel *price;
+
+@end
 @implementation listCell
 
 - (void)awakeFromNib {
@@ -15,10 +20,19 @@
     // Initialization code
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
+-(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
+{
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        self = [[NSBundle mainBundle] loadNibNamed:@"listCell" owner:self options:nil][0];
+    }
+    return self;
 }
+
+-(void)setMessageForCell:(NSDictionary *)dict{
+    self.listDict = dict;
+    self.name.text = dict[@"name"];
+    self.price.text = dict[@"price"];
+}
+
 
 @end

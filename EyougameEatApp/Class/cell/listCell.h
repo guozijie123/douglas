@@ -10,4 +10,7 @@
 
 @interface listCell : UITableViewCell
 
+@property (nonatomic,copy)NSDictionary * listDict;
+-(void)setMessageForCell:(NSDictionary *)dict;
+
 @end
